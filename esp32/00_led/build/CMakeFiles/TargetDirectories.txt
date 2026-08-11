@@ -1,0 +1,2 @@
+/workspace/esp32/00_led/build/CMakeFiles/edit_cache.dir
+/workspace/esp32/00_led/build/CMakeFiles/rebuild_cache.dir

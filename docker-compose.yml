@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  esp-idf:
+    image: espressif/idf:v5.2
+    container_name: bomba_esp_idf
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - /dev:/dev
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    environment:
+      - IDF_TARGET=esp32
+    stdin_open: true
+    tty: true
+    privileged: true
