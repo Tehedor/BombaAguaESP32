@@ -10,6 +10,7 @@ esp-idf/
 
 # Flutter
 .dart_tool/
+.flutter-plugins-dependencies
 .flutter_plugins_dependencies
 pubspec.lock
 *.so
@@ -19,6 +20,7 @@ pubspec.lock
 *.iml
 .idea/
 .gradle/
+android/app/build.gradle.kts
 
 # Python
 __pycache__/
