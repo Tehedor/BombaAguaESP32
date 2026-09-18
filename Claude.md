@@ -12,10 +12,12 @@ Ver **Proyecto.md** para detalles técnicos, componentes y fases.
 - **Herramientas**: Docker (todo automatizado)
 - **Ubicación**: `esp32/`
 
-### App Móvil
-- **Framework**: Flutter
+### App Móvil (Flutter)
+- **Framework**: Flutter + Dart
 - **Ubicación**: `app_android/`
-- **Estado**: Por iniciar
+- **Estado**: Fase 1 lista (código + dependencias)
+- **Librerías**: flutter_blue_plus, provider, permission_handler
+- **Características**: Escaneo BLE, conexión, control LED
 
 ## ⚡ Flujo Rápido (3 comandos)
 

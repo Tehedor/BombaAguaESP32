@@ -1,0 +1,10 @@
+## Component manifest
+# BombaESP Fase 1 - Servidor BLE
+
+version: "1.0"
+description: "Servidor Bluetooth BLE para controlar LED desde app móvil"
+
+dependencies:
+  bt: "*"
+  nvs_flash: "*"
+  driver: "*"

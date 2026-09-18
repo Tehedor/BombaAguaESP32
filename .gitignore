@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+*.bin
+*.elf
+
+# ESP-IDF generated
+sdkconfig
+sdkconfig.old
+esp-idf/
+
+# Flutter
+.dart_tool/
+.flutter_plugins_dependencies
+pubspec.lock
+*.so
+*.dill
+
+# Android/IDE
+*.iml
+.idea/
+.gradle/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+.env
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Docker
+.docker/
+.dockerignore
