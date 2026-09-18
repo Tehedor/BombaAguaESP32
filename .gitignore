@@ -20,7 +20,7 @@ pubspec.lock
 *.iml
 .idea/
 .gradle/
-android/app/build.gradle.kts
+**/android/app/build.gradle.kts
 
 # Python
 __pycache__/
